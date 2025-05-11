@@ -171,8 +171,7 @@ public class ChineseChessGame extends Application {
     CHE_TWO_STACK_PANE.getChildren().addAll(circleAgainst, cheTextAgainst);
 
     Circle maCircle = new Circle(30 + 60 * 1, 30, 30);
-    maCircle.setFill(new Color(220d / 255, 220d / 255
-            , 220d / 255, 1d));
+    maCircle.setFill(new Color(220d / 255, 220d / 255, 220d / 255, 1d));
     maCircle.setStroke(Color.BLACK);
 
     Text maText = new Text(MA);
@@ -183,8 +182,7 @@ public class ChineseChessGame extends Application {
     MA_ONE_STACK_PANE.getChildren().addAll(maCircle, maText);
 
     Circle maCircleAgainst = new Circle(30 + 60 * 7, 30, 30);
-    maCircleAgainst.setFill(new Color(220d / 255, 220d / 255
-            , 220d / 255, 1d));
+    maCircleAgainst.setFill(new Color(220d / 255, 220d / 255, 220d / 255, 1d));
     maCircleAgainst.setStroke(Color.BLACK);
 
     Text maTextAgainst = new Text(MA_AGAINST);
@@ -194,8 +192,7 @@ public class ChineseChessGame extends Application {
     MA_TWO_STACK_PANE.getChildren().addAll(maCircleAgainst, maTextAgainst);
 
     Circle xiangCircle = new Circle(30 + 60 * 2, 30, 30);
-    xiangCircle.setFill(new Color(220d / 255, 220d / 255
-            , 220d / 255, 1d));
+    xiangCircle.setFill(new Color(220d / 255, 220d / 255, 220d / 255, 1d));
     xiangCircle.setStroke(Color.BLACK);
 
     Text xiangText = new Text(XIANG);
@@ -206,8 +203,7 @@ public class ChineseChessGame extends Application {
     XIANG_ONE_STACK_PANE.getChildren().addAll(xiangCircle, xiangText);
 
     Circle xiangCircleAgainst = new Circle(30 + 60 * 6, 30, 30);
-    xiangCircleAgainst.setFill(new Color(220d / 255, 220d / 255
-            , 220d / 255, 1d));
+    xiangCircleAgainst.setFill(new Color(220d / 255, 220d / 255, 220d / 255, 1d));
     xiangCircleAgainst.setStroke(Color.BLACK);
 
     Text xiangTextAgainst = new Text(XIANG);
@@ -217,8 +213,7 @@ public class ChineseChessGame extends Application {
     XIANG_TWO_STACK_PANE.getChildren().addAll(xiangCircleAgainst, xiangTextAgainst);
 
     Circle shiCircle = new Circle(30 + 60 * 3, 30, 30);
-    shiCircle.setFill(new Color(220d / 255, 220d / 255
-            , 220d / 255, 1d));
+    shiCircle.setFill(new Color(220d / 255, 220d / 255, 220d / 255, 1d));
     shiCircle.setStroke(Color.BLACK);
 
     Text shiText = new Text(SHI);
@@ -229,8 +224,7 @@ public class ChineseChessGame extends Application {
 
 
     Circle shiCircleAgainst = new Circle(30 + 60 * 5, 30, 30);
-    shiCircleAgainst.setFill(new Color(220d / 255, 220d / 255
-            , 220d / 255, 1d));
+    shiCircleAgainst.setFill(new Color(220d / 255, 220d / 255, 220d / 255, 1d));
     shiCircleAgainst.setStroke(Color.BLACK);
 
     Text shiTextAgainst = new Text(SHI);
@@ -240,8 +234,7 @@ public class ChineseChessGame extends Application {
     SHI_TWO_STACK_PANE.getChildren().addAll(shiCircleAgainst, shiTextAgainst);
 
     Circle jiangCircle = new Circle(30 + 60 * 4, 30, 30);
-    jiangCircle.setFill(new Color(220d / 255, 220d / 255
-            , 220d / 255, 1d));
+    jiangCircle.setFill(new Color(220d / 255, 220d / 255, 220d / 255, 1d));
     jiangCircle.setStroke(Color.BLACK);
 
     Text jiangText = new Text(JIANG);
@@ -251,8 +244,7 @@ public class ChineseChessGame extends Application {
     JIANG_STACK_PANE.getChildren().addAll(jiangCircle, jiangText);
 
     Circle paoCircle = new Circle(30 + 60 * 1, 30 + 60 * 2, 30);
-    paoCircle.setFill(new Color(220d / 255, 220d / 255
-            , 220d / 255, 1d));
+    paoCircle.setFill(new Color(220d / 255, 220d / 255, 220d / 255, 1d));
     paoCircle.setStroke(Color.BLACK);
 
     Text paoText = new Text(PAO);
@@ -262,8 +254,7 @@ public class ChineseChessGame extends Application {
     PAO_ONE_STACK_PANE.getChildren().addAll(paoCircle, paoText);
 
     Circle paoCircleAgainst = new Circle(30 + 60 * 7, 30 + 60 * 2, 30);
-    paoCircleAgainst.setFill(new Color(220d / 255, 220d / 255
-            , 220d / 255, 1d));
+    paoCircleAgainst.setFill(new Color(220d / 255, 220d / 255, 220d / 255, 1d));
     paoCircleAgainst.setStroke(Color.BLACK);
 
     Text paoTextAgainst = new Text(PAO_AGAINST);
@@ -274,8 +265,7 @@ public class ChineseChessGame extends Application {
 
 
     Circle pingOneCircle = new Circle(30, 30 + 60 * 3, 30);
-    pingOneCircle.setFill(new Color(220d / 255, 220d / 255
-            , 220d / 255, 1d));
+    pingOneCircle.setFill(new Color(220d / 255, 220d / 255, 220d / 255, 1d));
     pingOneCircle.setStroke(Color.BLACK);
 
     Text pingText = new Text(PING);
@@ -304,8 +294,7 @@ public class ChineseChessGame extends Application {
     PING_THREE_STACK_PANE.getChildren().addAll(pingThreeCircle, pingTextThree);
 
     Circle pingFourCircle = new Circle(30 + 60 * 6, 30 + 60 * 3, 30);
-    pingFourCircle.setFill(new Color(220d / 255, 220d /
-            255, 220d / 255, 1d));
+    pingFourCircle.setFill(new Color(220d / 255, 220d / 255, 220d / 255, 1d));
     pingFourCircle.setStroke(Color.BLACK);
 
     Text pingTextFour = new Text(PING);
@@ -583,7 +572,7 @@ public class ChineseChessGame extends Application {
     Point xiangRedTwo = new QiZi(XIANG_AGAINST, "red", "4", 6, 9);
     Point shiRedOne = new QiZi(SHI_AGAINST, "red", "5", 3, 9);
     Point shiRedTwo = new QiZi(SHI_AGAINST, "red", "5", 5, 9);
-    Point shuaiRed  = new QiZi(SHUAI, "red", "6", 4, 9);
+    Point shuaiRed = new QiZi(SHUAI, "red", "6", 4, 9);
 
 
     Point pingRedOne = new QiZi(PING_AGAINST, "red", "7", 0, 6);
@@ -647,8 +636,8 @@ public class ChineseChessGame extends Application {
 
     for (int i = 0; i < CHESS_BOARD.length; i++) {
       for (int j = 0; j < CHESS_BOARD[i].length; j++) {
-        if (CHESS_BOARD[i][j] ==null) {
-            CHESS_BOARD[i][j] = new Point(i, j);
+        if (CHESS_BOARD[i][j] == null) {
+          CHESS_BOARD[i][j] = new Point(i, j);
         }
       }
     }
@@ -674,41 +663,43 @@ public class ChineseChessGame extends Application {
     // 为场景添加鼠标点击事件处理器
     scene.setOnMouseClicked(event -> {
       count[0]++;
-      if (count[0] > 2) {
-        count[0] = 1;
-      }
+
       double x = event.getX(); // 获取鼠标点击的 X 坐标
       double y = event.getY(); // 获取鼠标点击的 Y 坐标
       List<Integer> range = findRange(Double.valueOf(x).intValue(), Double.valueOf(y).intValue(), LOCAL, RANGE);
-      if (CHESS_BOARD[range.get(0) / CELL_SIZE][range.get(1) / CELL_SIZE] instanceof QiZi) {
+      if (CHESS_BOARD[range.get(0) / CELL_SIZE][range.get(1) / CELL_SIZE] instanceof QiZi && count[0] % 2 == 1) {
         before[0] = CHESS_BOARD[range.get(0) / CELL_SIZE][range.get(1) / CELL_SIZE];
       }
 
       // 如果点击的是不同的棋子，一是颜色相同则换成其他棋子， 二是颜色不同则before不变保持原来的状态
-      if ((CHESS_BOARD[range.get(0) / CELL_SIZE][range.get(1) / CELL_SIZE] instanceof QiZi) &&
-              !before[0].equals(CHESS_BOARD[range.get(0) / CELL_SIZE][range.get(1) / CELL_SIZE])) {
+      if ((CHESS_BOARD[range.get(0) / CELL_SIZE][range.get(1) / CELL_SIZE] instanceof QiZi) && !before[0].equals(CHESS_BOARD[range.get(0) / CELL_SIZE][range.get(1) / CELL_SIZE])) {
         if (((QiZi) before[0]).getColor().equals(((QiZi) CHESS_BOARD[range.get(0) / CELL_SIZE][range.get(1) / CELL_SIZE]).getColor())) {
           before[0] = CHESS_BOARD[range.get(0) / CELL_SIZE][range.get(1) / CELL_SIZE];
-          count[0] = 0;
-          flag[0] = !flag[0];
-        } else {
           count[0] = 1;
         }
       }
 
-      if (count[0] == 2 && before[0] instanceof QiZi
-              &&((!flag[0]&&((QiZi) before[0]).getColor().equals("red"))||
-                  (flag[0]&&((QiZi) before[0]).getColor().equals("black")))){
+      if (count[0] == 2 && before[0] instanceof QiZi && ((!flag[0] && ((QiZi) before[0]).getColor().equals("red")) || (flag[0] && ((QiZi) before[0]).getColor().equals("black")))) {
 
         Point after = CHESS_BOARD[range.get(0) / CELL_SIZE][range.get(1) / CELL_SIZE];
         QiZi qiZi = (QiZi) before[0];
         // 如果点击的是棋子，则将棋子移动到新的位置
         if (RULE_MAP.get(qiZi.getRule()).isLegal(qiZi, CHESS_BOARD, after)) {
-          CHESS_BOARD[range.get(0)/CELL_SIZE][range.get(1)/CELL_SIZE] = new QiZi(((QiZi) before[0]).getName(),((QiZi) before[0]).getColor(),((QiZi) before[0]).getRule(),range.get(0)/CELL_SIZE,range.get(1)/CELL_SIZE);
+          CHESS_BOARD[range.get(0) / CELL_SIZE][range.get(1) / CELL_SIZE] = new QiZi(((QiZi) before[0]).getName(), ((QiZi) before[0]).getColor(), ((QiZi) before[0]).getRule(), range.get(0) / CELL_SIZE, range.get(1) / CELL_SIZE);
           CHESS_BOARD[before[0].getX()][before[0].getY()] = new Point(before[0].getX(), before[0].getY());
           Pane beforePane = CHESS_MAP.get(before[0].getX() + "," + before[0].getY());
+          Pane nowPane = CHESS_MAP.get(range.get(0) / CELL_SIZE + "," + range.get(1) / CELL_SIZE);
+          // 之前的棋子移除
           CHESS_MAP.remove(before[0].getX() + "," + before[0].getY());
+          // 现在的棋子移除
+          CHESS_MAP.remove(range.get(0) / CELL_SIZE + "," + range.get(1) / CELL_SIZE);
+          //之前的棋子界面移除
           root.getChildren().remove(beforePane);
+          //现在的棋子界面移除
+          if (nowPane != null) {
+            root.getChildren().remove(nowPane);
+          }
+          // 之前的棋子界面添加
           Pane pane = createPane(((QiZi) before[0]).getColor(), ((QiZi) before[0]).getName(), range.get(0) / CELL_SIZE, range.get(1) / CELL_SIZE);
           CHESS_MAP.put(range.get(0) / CELL_SIZE + "," + range.get(1) / CELL_SIZE, pane);
           root.getChildren().add(pane);
@@ -716,6 +707,9 @@ public class ChineseChessGame extends Application {
         } else {
           count[0] = 1;
         }
+      }
+      if (count[0] >= 2) {
+          count[0] = 0;
       }
     });
 
@@ -765,12 +759,7 @@ public class ChineseChessGame extends Application {
 
   private void drawAdvisorMoves(Pane root, int startCol, int startRow) {
     // 九宫格四角点
-    double[][] corners = {
-            {startCol * CELL_SIZE + 30, startRow * CELL_SIZE + 30},
-            {(startCol + 2) * CELL_SIZE + 30, startRow * CELL_SIZE + 30},
-            {startCol * CELL_SIZE + 30, (startRow + 2) * CELL_SIZE + 30},
-            {(startCol + 2) * CELL_SIZE + 30, (startRow + 2) * CELL_SIZE + 30},
-    };
+    double[][] corners = {{startCol * CELL_SIZE + 30, startRow * CELL_SIZE + 30}, {(startCol + 2) * CELL_SIZE + 30, startRow * CELL_SIZE + 30}, {startCol * CELL_SIZE + 30, (startRow + 2) * CELL_SIZE + 30}, {(startCol + 2) * CELL_SIZE + 30, (startRow + 2) * CELL_SIZE + 30},};
 
     double centerX = (startCol + 1) * CELL_SIZE + 30;
     double centerY = (startRow + 1) * CELL_SIZE + 30;

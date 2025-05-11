@@ -18,7 +18,7 @@ public class XiangRule implements Rule{
          if(point instanceof QiZi){
            return shaiXiangYan(x,y,x1,y1,chessBoard)&&!qiZi.getColor().equals(((QiZi) point).getColor());
          }else{
-           return true;
+           return shaiXiangYan(x,y,x1,y1,chessBoard);
          }
       }
     }

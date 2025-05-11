@@ -26,7 +26,7 @@ public class PingRule implements Rule {
       }
     } else {
       if (y > 5 && x == x1) {
-        return y - y1 == -1;
+        return y - y1 == 1;
       } else {
         if (Math.abs(x - x1) == 1 || Math.abs(y - y1) == 1) {
           if(point instanceof QiZi){
