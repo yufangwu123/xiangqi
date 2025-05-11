@@ -51,7 +51,7 @@ public class MaRule implements Rule {
       }
       //row left down
       if (x - x1 == -2 && y - y1 == -1) {
-        if (chessBoard[x1][y1 + 1] instanceof QiZi) {
+        if (chessBoard[x1 - 1][y1] instanceof QiZi) {
           return false;
         } else {
 
@@ -88,7 +88,7 @@ public class MaRule implements Rule {
       }
       //col left up
       if (x - x1 == -1 && y - y1 == 2) {
-        if (chessBoard[x1][y1 - 1] instanceof QiZi) {
+        if (chessBoard[x1][y1 + 1] instanceof QiZi) {
 
           return false;
         } else {
@@ -101,7 +101,7 @@ public class MaRule implements Rule {
       }
       //col left down
       if (x - x1 == -1 && y - y1 == -2) {
-        if (chessBoard[x1][y1 + 1] instanceof QiZi) {
+        if (chessBoard[x1][y1 - 1] instanceof QiZi) {
           return false;
         } else {
           if (point instanceof QiZi) {
@@ -114,7 +114,8 @@ public class MaRule implements Rule {
     } else {
       //1
       if (x1 - x == 2 && y1 - y == -1) {
-        if (chessBoard[x1 + 1][y1] instanceof QiZi) {
+
+        if (chessBoard[x1 - 1][y1] instanceof QiZi) {
           return false;
         } else {
           if (point instanceof QiZi) {
@@ -124,10 +125,9 @@ public class MaRule implements Rule {
           }
         }
       }
-
       //2
       if (x1 - x == -2 && y1 - y == -1) {
-        if (chessBoard[x1 - 1][y1] instanceof QiZi) {
+        if (chessBoard[x1 + 1][y1] instanceof QiZi) {
           return false;
         } else {
           if (point instanceof QiZi) {
@@ -140,7 +140,7 @@ public class MaRule implements Rule {
 
       //3
       if (x1 - x == 2 && y1 - y == 1) {
-        if (chessBoard[x1 + 1][y1] instanceof QiZi) {
+        if (chessBoard[x1 - 1][y1] instanceof QiZi) {
           return false;
         } else {
           if (point instanceof QiZi) {
@@ -150,10 +150,9 @@ public class MaRule implements Rule {
           }
         }
       }
-
       //4
       if (x1 - x == -2 && y1 - y == 1) {
-        if (chessBoard[x1][y1 + 1] instanceof QiZi) {
+        if (chessBoard[x1 + 1][y1] instanceof QiZi) {
           return false;
         } else {
           if (point instanceof QiZi) {
@@ -166,7 +165,7 @@ public class MaRule implements Rule {
 
       //5
       if (x1 - x == 1 && y1 - y == 2) {
-        if (chessBoard[x1][y1 + 1] instanceof QiZi) {
+        if (chessBoard[x1][y1 - 1] instanceof QiZi) {
           return false;
         } else {
           if (point instanceof QiZi) {
@@ -179,7 +178,7 @@ public class MaRule implements Rule {
 
       //6
       if (x1 - x == 1 && y1 - y == -2) {
-        if (chessBoard[x1][y1 - 1] instanceof QiZi) {
+        if (chessBoard[x1][y1 + 1] instanceof QiZi) {
           return false;
         } else {
           if (point instanceof QiZi) {
@@ -190,15 +189,14 @@ public class MaRule implements Rule {
         }
       }
 
-
       //7
       if (x1 - x == -1 && y1 - y == 2) {
         if (chessBoard[x1][y1 - 1] instanceof QiZi) {
           return false;
-        } else {
+        }else{
           if (point instanceof QiZi) {
             return !qiZi.getColor().equals(((QiZi) chessBoard[x][y]).getColor());
-          } else {
+          }else{
             return true;
           }
         }
@@ -216,9 +214,7 @@ public class MaRule implements Rule {
           }
         }
       }
-
     }
-
     return false;
-}
+  }
 }
