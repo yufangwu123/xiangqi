@@ -16,7 +16,7 @@ public class PingRule implements Rule {
       if (y < 6 && x == x1) {
         return y1 - y == 1;
       } else {
-        if (Math.abs(x - x1) == 1 || Math.abs(y - y1) == 1) {
+        if (Math.abs(x - x1) == 1 ^ Math.abs(y - y1) == 1) {
           if(point instanceof QiZi){
             return !qiZi.getColor().equals(((QiZi) point).getColor());
           }else{
@@ -28,7 +28,7 @@ public class PingRule implements Rule {
       if (y > 5 && x == x1) {
         return y - y1 == 1;
       } else {
-        if (Math.abs(x - x1) == 1 || Math.abs(y - y1) == 1) {
+        if (Math.abs(x - x1) == 1 ^ Math.abs(y - y1) == 1) {
           if(point instanceof QiZi){
             return !qiZi.getColor().equals(((QiZi) point).getColor());
           }else{
