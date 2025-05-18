@@ -12,16 +12,16 @@ public class JiangRule implements Rule {
     int y = qiZi.getY();
     int x1 = point.getX();
     int y1 = point.getY();
-    if (Math.abs(x - x1) == 1 || Math.abs(y - y1) == 1) {
-       if(point instanceof QiZi){
-         if(!qiZi.getColor().equals(((QiZi) point).getColor())){
-           return inJiu(qiZi.getColor(),x1,y1,chessBoard);
-         }else{
-           return false;
-         }
-       }else {
-         return inJiu(qiZi.getColor(),x1,y1,chessBoard);
-       }
+    if (Math.abs(x - x1) == 1 ^ Math.abs(y - y1) == 1) {
+      if (point instanceof QiZi) {
+        if (!qiZi.getColor().equals(((QiZi) point).getColor())) {
+          return inJiu(qiZi.getColor(), x1, y1, chessBoard);
+        } else {
+          return false;
+        }
+      } else {
+        return inJiu(qiZi.getColor(), x1, y1, chessBoard);
+      }
     }
     return false;
   }
